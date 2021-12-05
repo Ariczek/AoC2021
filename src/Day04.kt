@@ -81,7 +81,7 @@ private fun getSumForBoardUnmarked(board: Array<Array<OneEntry>>): Int {
     return sum
 }
 
-fun part1(input: List<String>): Int {
+private fun part1(input: List<String>): Int {
 
     val drawnNumbers = parseDrawnNumbers(input[0])
     var boardList: MutableList<Array<Array<OneEntry>>> = mutableListOf()
@@ -102,7 +102,7 @@ fun part1(input: List<String>): Int {
     return -1
 }
 
-fun part2(input: List<String>): Int {
+private fun part2(input: List<String>): Int {
     val drawnNumbers = parseDrawnNumbers(input[0])
     var boardList: MutableList<Array<Array<OneEntry>>> = mutableListOf()
 
